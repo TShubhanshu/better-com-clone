@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -6,7 +7,9 @@ export default function Home() {
       <section className={styles.hero}>
         <h1>Better Mortgage: Simple, Online, AI-Powered Mortgage</h1>
         <p>Get a mortgage faster, easier and more transparent online. No salesperson. No hidden fees. Just your best loan.</p>
-        <a href="/start" className={styles.cta}>Get Started</a>
+        <Link href="/start" className={styles.cta}>
+          Get Started
+        </Link>
       </section>
       <section className={styles.features}>
         <h2>What We Offer</h2>
