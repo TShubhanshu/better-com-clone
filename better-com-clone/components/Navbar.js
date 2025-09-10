@@ -5,8 +5,8 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <div className={styles.logo}>
-        <Link href="/">
-          <a>Better.in</a> {}
+        <Link href="/" className={styles.logoLink}>
+          Better.in
         </Link>
       </div>
       <div className={styles.links}>
