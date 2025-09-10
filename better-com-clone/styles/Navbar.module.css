@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  align-items: center; /* vertically center items */
+  justify-content: space-between; /* space between logo and nav links */
+  background: rgb(0 71 51);
+  padding: 1rem 2rem; /* add horizontal padding for spacing */
+}
+
+.logo a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-grow: 1; /* take remaining space to center links */
+}
+
+.links span {
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}

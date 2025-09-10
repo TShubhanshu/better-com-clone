@@ -1,0 +1,37 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: #e3f0ff;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 2rem;
+  background: rgb(0 71 51);
+  color: #fff;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.features {
+  margin-top: 2rem;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+.features li {
+  background: #2563eb11;
+  margin: 0.4rem 0;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+}

@@ -1,0 +1,29 @@
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 6px;
+}
+.calculator label {
+  display: block;
+  margin: 0.7rem 0;
+}
+.numberInput {
+  margin: 0.4rem 0;
+  padding: 0.4rem;
+}
+.calcButton {
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: rgb(0 71 51);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.result {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  color: #10b981;
+}

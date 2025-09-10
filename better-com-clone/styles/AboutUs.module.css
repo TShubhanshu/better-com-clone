@@ -1,0 +1,18 @@
+.container {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 6px;
+}
+.section {
+  margin-bottom: 1.5rem;
+}
+.title {
+  color: rgb(0 71 51);
+  font-size: 2rem;
+}
+.subtitle {
+  color: rgb(0 71 51);
+  font-size: 1.3rem;
+}
