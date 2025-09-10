@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className={styles.nav}>
       <div className={styles.logo}>
         <Link href="/">
-          <a>Better.in</a> {/* You can change this to an image or icon if you have one */}
+          <a>Better.in</a> {}
         </Link>
       </div>
       <div className={styles.links}>
