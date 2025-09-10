@@ -22,7 +22,7 @@ export default function Form() {
         <input type="email" className={styles.formInput} required value={email} onChange={e => setEmail(e.target.value)} />
       </label>
       <button className={styles.formButton} type="submit">Start Application</button>
-      {submitted && <div className={styles.confirmation}>Thank you! We'll be in touch soon.</div>}
+      {submitted && <div className={styles.confirmation}>Thank you! We&apos;ll be in touch soon.</div>}
     </form>
   );
 }
